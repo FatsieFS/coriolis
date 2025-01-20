@@ -23,8 +23,8 @@ permissions:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository }}-manylinux2014
-  FALLBACK_TAG: ghcr.io/${{ github.repository }}-manylinux2014:main
+  IMAGE_NAME: lip6/coriolis-manylinux2014
+  FALLBACK_TAG: ghcr.io/lip6/coriolis-manylinux2014:main
 
 jobs:
   build-custom-manylinux:
